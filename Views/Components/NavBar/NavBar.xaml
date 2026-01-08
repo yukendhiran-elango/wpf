@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Master.Views.Components.NavBar.NavBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Master.Views.Components.NavBar"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+			 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
+	<ui:Card  HorizontalAlignment="Stretch">
+
+		<!-- Use WrapPanel instead of StackPanel -->
+		<WrapPanel HorizontalAlignment="Center">
+
+
+
+			<local:NavButton Text="Home" Icon="Home24" Click="Home_Click" />
+			<Separator />
+			<local:NavButton Text="Analysis" Icon="DataArea20" Click="Analysis_Click" />
+			<Separator />
+			<local:NavButton Text="Machine Status" Icon="DataPie20" Click="MachineStatus_Clik"/>
+			<Separator />
+			<local:NavButton Text="Production" Icon="Production20" Click="Production_Clik"/>
+			<Separator />
+			<local:NavButton Text="Reports" Icon="DocumentData32" />
+			<Separator />
+			<local:NavButton Text="Maintenance" Icon="AddCircle20"/>
+			<Separator />
+			<local:NavButton Text="Alarm" Icon="ClockAlarm20"/>
+			<Separator />
+			<local:NavButton Text="Logs" Icon="DatabaseWindow20"/>
+			<Separator />
+			<local:NavButton Text="User Management" Icon="PersonAvailable20"/>
+			<Separator />
+			<local:NavButton Text="Help" Icon="ChatHelp24"/>
+
+		</WrapPanel>
+
+	</ui:Card>
+</UserControl>
