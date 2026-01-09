@@ -1,4 +1,4 @@
-﻿using Master.Views.Pages;
+using Master.Views.Pages;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -31,16 +31,28 @@ namespace Master
         }
 
         private void OnHomeRequested(object sender, RoutedEventArgs e)
-       => MainFrame.Navigate(new HomePage());
+        {
+            MainFrame.Navigate(new HomePage());
+            NavigationBar.CurrentPage = "Home";
+        }
 
         private void OnAnalysisRequested(object sender, RoutedEventArgs e)
-            => MainFrame.Navigate(new AnalysisPage());
+        {
+            MainFrame.Navigate(new AnalysisPage());
+            NavigationBar.CurrentPage = "Analysis";
+        }
 
         private void OnMachineStatusRequested(object sender, RoutedEventArgs e)
-           => MainFrame.Navigate(new MachineStatusPage());
+        {
+            MainFrame.Navigate(new MachineStatusPage());
+            NavigationBar.CurrentPage = "MachineStatus";
+        }
 
         private void OnProductionRequested(object sender, RoutedEventArgs e)
-          => MainFrame.Navigate(new ProductionPage());
+        {
+            MainFrame.Navigate(new ProductionPage());
+            NavigationBar.CurrentPage = "Production";
+        }
 
     }
 }

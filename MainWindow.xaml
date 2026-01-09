@@ -1,4 +1,4 @@
-﻿<ui:FluentWindow x:Class="Master.MainWindow"
+<ui:FluentWindow x:Class="Master.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -9,7 +9,7 @@
 		xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
 		xmlns:nav="clr-namespace:Master.Views.Components.NavBar"
 		xmlns:header="clr-namespace:Master.Views.Components.Header">
-    <Grid>
+    <Grid Background="{DynamicResource BackgroundBrush}">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<!-- TitleBar -->
@@ -30,11 +30,12 @@
 
 		
 		<nav:NavBar 
-			Grid.Row="3"  
+			Grid.Row="3" x:Name="NavigationBar"
 			HomeRequested="OnHomeRequested"
 			AnalysisRequested="OnAnalysisRequested"
 			MachineStatusRequested="OnMachineStatusRequested"
 			ProductionRequested="OnProductionRequested"
+			CurrentPage="Home"
 		/>
 	</Grid>
 </ui:FluentWindow>
