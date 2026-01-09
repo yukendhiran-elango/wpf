@@ -74,8 +74,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Models\HomePage\Device.cs" />
+    <Compile Include="Themes\ThemeToggle.xaml.cs">
+      <DependentUpon>ThemeToggle.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\HomePage\HomeViewModel.cs" />
     <Compile Include="Views\Components\Header\Header.xaml.cs">
       <DependentUpon>Header.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\HomePage\InfoRow.xaml.cs">
+      <DependentUpon>InfoRow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\HomePage\StatTile.xaml.cs">
+      <DependentUpon>StatTile.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\AnalysisPage.xaml.cs">
       <DependentUpon>AnalysisPage.xaml</DependentUpon>
@@ -89,7 +100,27 @@
     <Compile Include="Views\Pages\ProductionPage.xaml.cs">
       <DependentUpon>ProductionPage.xaml</DependentUpon>
     </Compile>
+    <Page Include="Themes\Common.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Effects.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\ThemeToggle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Components\Header\Header.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\HomePage\InfoRow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\HomePage\StatTile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

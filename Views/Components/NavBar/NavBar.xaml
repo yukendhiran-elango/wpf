@@ -7,34 +7,24 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
 			 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
-	<ui:Card  HorizontalAlignment="Stretch" Background="{DynamicResource CardBrush}">
-
-		<!-- Use WrapPanel instead of StackPanel -->
-		<WrapPanel HorizontalAlignment="Center">
-
-
-
+	
+	<ui:Card Padding="10,5" 
+             Margin="0"
+             HorizontalAlignment="Stretch" 
+             VerticalAlignment="Bottom"
+             Background="{DynamicResource Brush.Navbar}"
+             BorderThickness="0,1,0,0">
+		<UniformGrid Columns="10" HorizontalAlignment="Center">
 			<local:NavButton Text="Home" Icon="Home24" Click="Home_Click" />
-			<Separator />
 			<local:NavButton Text="Analysis" Icon="DataArea20" Click="Analysis_Click" />
-			<Separator />
-			<local:NavButton Text="Machine Status" Icon="DataPie20" Click="MachineStatus_Clik"/>
-			<Separator />
+			<local:NavButton Text="Status" Icon="DataPie20" Click="MachineStatus_Clik"/>
 			<local:NavButton Text="Production" Icon="Production20" Click="Production_Clik"/>
-			<Separator />
 			<local:NavButton Text="Reports" Icon="DocumentData32" />
-			<Separator />
 			<local:NavButton Text="Maintenance" Icon="AddCircle20"/>
-			<Separator />
 			<local:NavButton Text="Alarm" Icon="ClockAlarm20"/>
-			<Separator />
 			<local:NavButton Text="Logs" Icon="DatabaseWindow20"/>
-			<Separator />
-			<local:NavButton Text="User Management" Icon="PersonAvailable20"/>
-			<Separator />
+			<local:NavButton Text="User" Icon="PersonAvailable20"/>
 			<local:NavButton Text="Help" Icon="ChatHelp24"/>
-
-		</WrapPanel>
-
+		</UniformGrid>
 	</ui:Card>
 </UserControl>

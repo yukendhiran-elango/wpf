@@ -1,70 +1,129 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\",
+  "WorkspaceRootPath": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\header\\header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\header\\header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yuken\\documents\\github\\wpf\\views\\pages\\analysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\analysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\machinestatuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\machinestatuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\header\\header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\header\\header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbutton.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\models\\homepage\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:models\\homepage\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\productionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\productionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\machinestatuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\machinestatuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\analysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\analysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\views\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\yuken\\Documents\\GitHub\\wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\viewmodels\\homepage\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:viewmodels\\homepage\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\themes\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\dark.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\views\\components\\homepage\\stattile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\homepage\\stattile.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:thememanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\themes\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\common.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\views\\components\\homepage\\inforow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\homepage\\inforow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\views\\components\\homepage\\inforow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\homepage\\inforow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\header\\header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\header\\header.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\views\\components\\homepage\\stattile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\homepage\\stattile.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\themes\\themetoggle.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\themetoggle.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\themes\\themetoggle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\themetoggle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\YukendhiranF\\AppData\\Local\\SourceServer\\c62c35f7b3c9c5249072db9e18e08970a94a505c7acf1254dee63e7ab3ddf66e\\src\\Wpf.Ui\\Controls\\TitleBar\\TitleBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\header\\header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\header\\header.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbar.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|c:\\users\\yukendhiranf\\documents\\github\\wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\themes\\effects.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\effects.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\themes\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:themes\\light.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\analysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\analysispage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\machinestatuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\machinestatuspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\components\\navbar\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\components\\navbar\\navbutton.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\productionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\productionpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\machinestatuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\machinestatuspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\views\\pages\\analysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85617871-01F7-4E37-A49E-5C1296FC4614}|Master.csproj|solutionrelative:views\\pages\\analysispage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,19 +133,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AnalysisPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\AnalysisPage.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml",
-              "RelativeToolTip": "Views\\Pages\\AnalysisPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T11:00:36.322Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -94,161 +145,210 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Header.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Components\\Header\\Header.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml.cs",
-              "RelativeToolTip": "Views\\Components\\Header\\Header.xaml.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwA8AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:26:32.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Header.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml",
-              "RelativeDocumentMoniker": "Views\\Components\\Header\\Header.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml",
-              "RelativeToolTip": "Views\\Components\\Header\\Header.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T11:20:04.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AnalysisPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\AnalysisPage.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\AnalysisPage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:13:03.207Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HomePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\HomePage.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\HomePage.xaml.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:06:25.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MachineStatusPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Pages\\MachineStatusPage.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml.cs",
-              "RelativeToolTip": "Views\\Pages\\MachineStatusPage.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T11:06:19.626Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProductionPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\ProductionPage.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\ProductionPage.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\ProductionPage.xaml",
-              "RelativeToolTip": "Views\\Pages\\ProductionPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T11:06:11.015Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MachineStatusPage.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml",
-              "RelativeDocumentMoniker": "Views\\Pages\\MachineStatusPage.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml",
-              "RelativeToolTip": "Views\\Pages\\MachineStatusPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T11:05:50.792Z"
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Models\\HomePage\\Device.cs",
+              "RelativeDocumentMoniker": "Models\\HomePage\\Device.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Models\\HomePage\\Device.cs",
+              "RelativeToolTip": "Models\\HomePage\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:06:53.603Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "HomePage.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml",
               "RelativeDocumentMoniker": "Views\\Pages\\HomePage.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml",
               "RelativeToolTip": "Views\\Pages\\HomePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T06:23:30.74Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NavBar.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavBar.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml.cs",
-              "RelativeToolTip": "Views\\Components\\NavBar\\NavBar.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T05:38:12.096Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NavButton.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavButton.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml.cs",
-              "RelativeToolTip": "Views\\Components\\NavBar\\NavButton.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBEAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T04:51:21.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NavButton.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml",
-              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavButton.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml",
-              "RelativeToolTip": "Views\\Components\\NavBar\\NavButton.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T04:45:49.121Z"
+              "WhenOpened": "2026-01-08T06:23:30.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwBkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:06:25.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "NavBar.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml",
               "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavBar.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml",
               "RelativeToolTip": "Views\\Components\\NavBar\\NavBar.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T04:43:05.557Z"
+              "WhenOpened": "2026-01-08T04:43:05.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NavButton.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml",
+              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavButton.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml",
+              "RelativeToolTip": "Views\\Components\\NavBar\\NavButton.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T04:45:49.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InfoRow.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\InfoRow.xaml",
+              "RelativeDocumentMoniker": "Views\\Components\\HomePage\\InfoRow.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\InfoRow.xaml",
+              "RelativeToolTip": "Views\\Components\\HomePage\\InfoRow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T08:46:02.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\ViewModels\\HomePage\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomePage\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\ViewModels\\HomePage\\HomeViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomePage\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T10:08:26.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Common.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Common.xaml",
+              "RelativeDocumentMoniker": "Themes\\Common.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Common.xaml",
+              "RelativeToolTip": "Themes\\Common.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T09:07:41.686Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\MainWindow.xaml",
-              "RelativeToolTip": "MainWindow.xaml",
+              "Title": "Dark.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Dark.xaml",
+              "RelativeDocumentMoniker": "Themes\\Dark.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Dark.xaml",
+              "RelativeToolTip": "Themes\\Dark.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-08T04:35:31.999Z"
+              "WhenOpened": "2026-01-09T04:54:29.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StatTile.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\StatTile.xaml",
+              "RelativeDocumentMoniker": "Views\\Components\\HomePage\\StatTile.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\StatTile.xaml",
+              "RelativeToolTip": "Views\\Components\\HomePage\\StatTile.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T08:44:54.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StatTile.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\StatTile.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Components\\HomePage\\StatTile.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\StatTile.xaml.cs",
+              "RelativeToolTip": "Views\\Components\\HomePage\\StatTile.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAIwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:45:31.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThemeManager.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\ThemeManager.cs",
+              "RelativeDocumentMoniker": "ThemeManager.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\ThemeManager.cs",
+              "RelativeToolTip": "ThemeManager.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T05:31:34.997Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Header.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml",
+              "RelativeDocumentMoniker": "Views\\Components\\Header\\Header.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml",
+              "RelativeToolTip": "Views\\Components\\Header\\Header.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T11:20:04.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InfoRow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\InfoRow.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Components\\HomePage\\InfoRow.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\HomePage\\InfoRow.xaml.cs",
+              "RelativeToolTip": "Views\\Components\\HomePage\\InfoRow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:51:41.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ThemeToggle.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\ThemeToggle.xaml.cs",
+              "RelativeDocumentMoniker": "Themes\\ThemeToggle.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\ThemeToggle.xaml.cs",
+              "RelativeToolTip": "Themes\\ThemeToggle.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T05:40:50.795Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "ThemeToggle.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\ThemeToggle.xaml",
+              "RelativeDocumentMoniker": "Themes\\ThemeToggle.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\ThemeToggle.xaml",
+              "RelativeToolTip": "Themes\\ThemeToggle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T05:37:47.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\App.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\App.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-08T04:24:33.219Z",
@@ -256,15 +356,176 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\yuken\\Documents\\GitHub\\wpf\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T04:23:30.925Z"
+              "WhenOpened": "2026-01-09T05:36:47.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TitleBar.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\AppData\\Local\\SourceServer\\c62c35f7b3c9c5249072db9e18e08970a94a505c7acf1254dee63e7ab3ddf66e\\src\\Wpf.Ui\\Controls\\TitleBar\\TitleBar.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\c62c35f7b3c9c5249072db9e18e08970a94a505c7acf1254dee63e7ab3ddf66e\\src\\Wpf.Ui\\Controls\\TitleBar\\TitleBar.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\AppData\\Local\\SourceServer\\c62c35f7b3c9c5249072db9e18e08970a94a505c7acf1254dee63e7ab3ddf66e\\src\\Wpf.Ui\\Controls\\TitleBar\\TitleBar.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\c62c35f7b3c9c5249072db9e18e08970a94a505c7acf1254dee63e7ab3ddf66e\\src\\Wpf.Ui\\Controls\\TitleBar\\TitleBar.cs [Read Only]",
+              "ViewState": "AgIAAIkCAAAAAAAAAAAYwJMCAAAMAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T07:30:26.546Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Header.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Components\\Header\\Header.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\Header\\Header.xaml.cs",
+              "RelativeToolTip": "Views\\Components\\Header\\Header.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:26:32.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T04:35:31.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NavBar.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavBar.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavBar.xaml.cs",
+              "RelativeToolTip": "Views\\Components\\NavBar\\NavBar.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T05:38:12.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T04:23:30.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Effects.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Effects.xaml",
+              "RelativeDocumentMoniker": "Themes\\Effects.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Effects.xaml",
+              "RelativeToolTip": "Themes\\Effects.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T05:34:55.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Light.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Light.xaml",
+              "RelativeDocumentMoniker": "Themes\\Light.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Themes\\Light.xaml",
+              "RelativeToolTip": "Themes\\Light.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-09T04:56:17.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MachineStatusPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\MachineStatusPage.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\MachineStatusPage.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:06:19.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProductionPage.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\ProductionPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\ProductionPage.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\ProductionPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\ProductionPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T11:06:11.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MachineStatusPage.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\MachineStatusPage.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\MachineStatusPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\MachineStatusPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T11:05:50.792Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AnalysisPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Pages\\AnalysisPage.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml.cs",
+              "RelativeToolTip": "Views\\Pages\\AnalysisPage.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T11:13:03.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AnalysisPage.xaml",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml",
+              "RelativeDocumentMoniker": "Views\\Pages\\AnalysisPage.xaml",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Pages\\AnalysisPage.xaml",
+              "RelativeToolTip": "Views\\Pages\\AnalysisPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-08T11:00:36.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NavButton.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Components\\NavBar\\NavButton.xaml.cs",
+              "ToolTip": "C:\\Users\\YukendhiranF\\Documents\\GitHub\\wpf\\Views\\Components\\NavBar\\NavButton.xaml.cs",
+              "RelativeToolTip": "Views\\Components\\NavBar\\NavButton.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T04:51:21.774Z"
             }
           ]
         }

@@ -16,7 +16,7 @@ namespace Master
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
-            ThemeManager.Initialize();
+            ThemeManager.Initialize(ThemeType.Light);
         }
     }
 }

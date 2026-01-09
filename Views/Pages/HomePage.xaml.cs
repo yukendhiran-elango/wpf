@@ -23,6 +23,7 @@ namespace Master.Views.Pages
         public HomePage()
         {
             InitializeComponent();
+            this.DataContext = new Master.ViewModels.HomePage.HomeViewModel();
         }
     }
 }

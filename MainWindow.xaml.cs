@@ -26,9 +26,12 @@ namespace Master
         public MainWindow()
         {
             InitializeComponent();
-            ApplicationThemeManager.Apply(this);
+            //ApplicationThemeManager.Apply(this);
+     
             MainFrame.Navigate(new Views.Pages.HomePage());
         }
+
+    
 
         private void OnHomeRequested(object sender, RoutedEventArgs e)
         {

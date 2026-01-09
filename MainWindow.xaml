@@ -9,7 +9,7 @@
 		xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
 		xmlns:nav="clr-namespace:Master.Views.Components.NavBar"
 		xmlns:header="clr-namespace:Master.Views.Components.Header">
-    <Grid Background="{DynamicResource BackgroundBrush}">
+    <Grid Background="{DynamicResource Brush.Background}">
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto"/>
 			<!-- TitleBar -->
@@ -21,7 +21,21 @@
 			<!-- Bottom Nav -->
 		</Grid.RowDefinitions>
 
-		<ui:TitleBar Grid.Row="0" Title="WPF UI"/>
+		<ui:TitleBar Grid.Row="0"
+					 Height="32" 
+             Padding="8,0"
+             Title="My App Name"
+             Icon="pack://application:,,,/Assets/logo.png"
+             Background="{DynamicResource Brush.Background}"
+             Foreground="{DynamicResource Brush.Foreground}"
+             BorderBrush="{DynamicResource Brush.Border}"
+             BorderThickness="0,0,0,1"
+             ButtonsBackground="{DynamicResource Brush.Background}"
+			ButtonsForeground="{DynamicResource Brush.Foreground}">
+
+		</ui:TitleBar>
+
+
 
 		<header:Header Grid.Row="1"/>
 
@@ -38,4 +52,5 @@
 			CurrentPage="Home"
 		/>
 	</Grid>
+    
 </ui:FluentWindow>

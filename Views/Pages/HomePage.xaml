@@ -6,13 +6,132 @@
       xmlns:local="clr-namespace:Master.Views.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
+      xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+      xmlns:home="clr-namespace:Master.Views.Components.HomePage"
       Title="HomePage">
+	<Grid Margin="6">
+		<TabControl Background="Transparent" BorderThickness="0">
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<ui:SymbolIcon Symbol="Status24" Margin="0,0,6,0"/>
+						<TextBlock Text="Status" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
 
-    <Grid Background="{DynamicResource BackgroundBrush}">
-		<TextBlock Text="Home Page"
-                   FontSize="32"
-                   Foreground="{DynamicResource TextBrush}"
-                   HorizontalAlignment="Center"
-                   VerticalAlignment="Center"/>
+				<!-- Main content grid: 2 columns -->
+				<Grid>
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width="2*" />
+						<ColumnDefinition Width="*" />
+					</Grid.ColumnDefinitions>
+
+					<!-- Left Column: Two Rows -->
+					<Grid Grid.Column="0">
+						<StackPanel Margin="6,6,0,6">
+							
+						
+
+						<!-- Machine Health Card -->
+						<ui:Card 
+                     Margin="0,0,0,8"
+                     HorizontalContentAlignment="Stretch"
+							Background="{DynamicResource Brush.Card}"
+                     VerticalContentAlignment="Stretch">
+							<StackPanel>
+								<TextBlock Text="MACHINE HEALTH" 
+                               FontSize="12" FontWeight="Bold" 
+                               Margin="0,0,0,12" 
+                               Foreground="{DynamicResource  Brush.MutedForeground}"/>
+								<UniformGrid Columns="4" HorizontalAlignment="Stretch">
+									<home:StatTile Label="Run Time" Value="120.5 Hr" Color="{DynamicResource Brush.Success}"/>
+									<home:StatTile Label="Down Time" Value="2.10 Hr" Color="{DynamicResource Brush.FailedRed}"/>
+									<home:StatTile Label="Idle Time" Value="15.0 Hr" Color="{DynamicResource Brush.WarningYellow}"/>
+									<home:StatTile Label="Total Time" Value="137.6 Hr" Color="{DynamicResource Brush.Info}"/>
+								</UniformGrid>
+							</StackPanel>
+						</ui:Card>
+
+						<!-- Operational Status Card -->
+						    <ui:Card 
+                     HorizontalContentAlignment="Stretch"
+								Background="{DynamicResource Brush.Card}"
+                     VerticalContentAlignment="Stretch">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" 
+                               Text="OPERATIONAL STATUS" 
+                               FontSize="12" FontWeight="Bold" 
+                               Margin="0,0,0,12" 
+                               Foreground="{DynamicResource Brush.MutedForeground}"/>
+                    <UniformGrid Columns="2" HorizontalAlignment="Stretch">
+                        <home:InfoRow Label="Machine Mode" Value="Automatic" />
+                        <home:InfoRow Label="UPH" Value="450" />
+                        <home:InfoRow Label="Pass Count" Value="1,240" />
+                        <home:InfoRow Label="OEE" Value="92%" />
+                        <home:InfoRow Label="Fail Count" Value="12" />
+                        <home:InfoRow Label="Yield" Value="99.03%" />
+                        <home:InfoRow Label="Cycle Time" Value="8.2 sec" />
+                        <home:InfoRow Label="MTBF" Value="480 Hr" />
+                    </UniformGrid>
+                </DockPanel>
+            </ui:Card>
+						</StackPanel>
+					</Grid>
+
+					<!-- Right Column: Connection Status -->
+					<ui:Card Grid.Column="1" Margin="8,8,8,8" HorizontalAlignment="Stretch"
+         VerticalAlignment="Stretch" Background="{DynamicResource Brush.Card}">
+						<DockPanel>
+							<TextBlock DockPanel.Dock="Top" 
+                                       Text="CONNECTION STATUS" 
+									   Foreground="{DynamicResource Brush.Foreground}"
+                                       FontSize="12" FontWeight="Bold" 
+                                       Margin="0,0,0,12" 
+                                       />
+							<ui:DataGrid ItemsSource="{Binding Devices}" 
+                                         AutoGenerateColumns="False" 
+                                         IsReadOnly="True" Foreground="{DynamicResource Brush.Foreground}"
+                                         GridLinesVisibility="None"
+                                         Margin="0,4,0,0">
+								<ui:DataGrid.Columns>
+									<DataGridTextColumn Header="Device" Binding="{Binding Name}"  Width="*" />
+									<DataGridTemplateColumn Header="Status" Width="Auto">
+										<DataGridTemplateColumn.CellTemplate>
+											<DataTemplate>
+												<Ellipse Width="10" Height="10" Fill="{Binding StatusBrush}"/>
+											</DataTemplate>
+										</DataGridTemplateColumn.CellTemplate>
+									</DataGridTemplateColumn>
+								</ui:DataGrid.Columns>
+							</ui:DataGrid>
+						</DockPanel>
+					</ui:Card>
+				</Grid>
+			</TabItem>
+
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<ui:SymbolIcon Symbol="Info24" Margin="0,0,6,0"/>
+						<TextBlock Text="Info" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ui:Card Margin="0,16,0,0">
+					<TextBlock Text="Machine Specifications and Manuals go here." />
+				</ui:Card>
+			</TabItem>
+
+			<TabItem>
+				<TabItem.Header>
+					<StackPanel Orientation="Horizontal">
+						<ui:SymbolIcon Symbol="History24" Margin="0,0,6,0"/>
+						<TextBlock Text="Logs" VerticalAlignment="Center"/>
+					</StackPanel>
+				</TabItem.Header>
+				<ui:Card Margin="0,16,0,0">
+					<TextBlock Text="System Logs and History." />
+				</ui:Card>
+			</TabItem>
+		</TabControl>
 	</Grid>
 </Page>

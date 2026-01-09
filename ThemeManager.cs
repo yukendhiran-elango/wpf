@@ -1,6 +1,6 @@
 using System;
+using System.Linq;
 using System.Windows;
-using System.Windows.Interop;
 
 namespace Master
 {
@@ -12,83 +12,62 @@ namespace Master
 
     public static class ThemeManager
     {
-        private static ThemeType currentTheme = ThemeType.Light;
-        public static ThemeType CurrentTheme { get { return currentTheme; } }
+        private const string ThemeDictionaryKey = "ThemeDictionary";
+
+        public static ThemeType CurrentTheme { get; private set; } = ThemeType.Light;
 
         public static event Action<ThemeType> ThemeChanged;
 
-        public static void SetTheme(ThemeType theme)
+        public static void Initialize(ThemeType initialTheme = ThemeType.Light)
         {
-            if (currentTheme == theme) return;
-
-            currentTheme = theme;
-            
-            // Get the application's resource dictionary
-            var app = Application.Current;
-            Uri themeUri;
-            if (theme == ThemeType.Light)
-            {
-                themeUri = new Uri("Themes/Light.xaml", UriKind.Relative);
-            }
-            else
-            {
-                themeUri = new Uri("Themes/Dark.xaml", UriKind.Relative);
-            }
-
-            // Remove existing theme resources
-            if (app.Resources.MergedDictionaries.Count > 0)
-            {
-                app.Resources.MergedDictionaries.RemoveAt(0);
-            }
-
-            // Add new theme resources
-            var themeDict = new ResourceDictionary();
-            themeDict.Source = themeUri;
-            app.Resources.MergedDictionaries.Insert(0, themeDict);
-
-            // Apply WPF UI theme
-            ApplyWpfUiTheme(theme);
-
-            // Notify listeners
-            if (ThemeChanged != null)
-            {
-                ThemeChanged(theme);
-            }
+            SetTheme(initialTheme);
         }
 
         public static void ToggleTheme()
         {
-            if (currentTheme == ThemeType.Light)
-            {
-                SetTheme(ThemeType.Dark);
-            }
-            else
-            {
-                SetTheme(ThemeType.Light);
-            }
+            SetTheme(CurrentTheme == ThemeType.Light ? ThemeType.Dark : ThemeType.Light);
         }
 
-        private static void ApplyWpfUiTheme(ThemeType theme)
+        public static void SetTheme(ThemeType theme)
         {
-            // Apply WPF UI theme to windows
-            var windows = Application.Current.Windows;
-            foreach (Window window in windows)
-            {
-                var helper = new WindowInteropHelper(window);
-                var handle = helper.Handle;
-                
-                if (handle != IntPtr.Zero)
-                {
-                    // You can use Wpf.Ui's theme system here
-                    // For now, we'll rely on our custom theme resources
-                }
-            }
-        }
+            if (CurrentTheme == theme)
+                return;
 
-        public static void Initialize()
-        {
-            // Set initial theme
-            SetTheme(ThemeType.Light);
+            CurrentTheme = theme;
+
+            var app = Application.Current;
+            if (app == null)
+                return;
+
+            // Remove existing theme dictionary (by key, not index)
+            var existingTheme = app.Resources.MergedDictionaries
+                .FirstOrDefault(d => d.Contains(ThemeDictionaryKey));
+
+            if (existingTheme != null)
+                app.Resources.MergedDictionaries.Remove(existingTheme);
+
+            // Load new theme dictionary
+            var themeDictionary = new ResourceDictionary
+            {
+                Source = new Uri(
+                    theme == ThemeType.Light
+                        ? "Themes/Light.xaml"
+                        : "Themes/Dark.xaml",
+                    UriKind.Relative
+                )
+            };
+
+            // Marker key so we can find/remove it later
+            themeDictionary[ThemeDictionaryKey] = true;
+
+            // Insert at top to ensure highest priority
+            app.Resources.MergedDictionaries.Insert(0, themeDictionary);
+
+            //app.Resources.MergedDictionaries.Add(new ResourceDictionary
+            //{
+            //    Source = new Uri("Themes/Common.xaml", UriKind.Relative)
+            //});
+            ThemeChanged?.Invoke(theme);
         }
     }
 }

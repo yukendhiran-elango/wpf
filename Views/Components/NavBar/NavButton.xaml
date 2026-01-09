@@ -6,68 +6,47 @@
              xmlns:local="clr-namespace:Master.Views.Components.NavBar"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-			 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml">
-	<Border
-		MouseLeftButtonUp="OnClick"
-        Cursor="Hand"
-        Margin="8,0"
-        CornerRadius="8"
-        Background="{DynamicResource NavButtonDefaultBrush}">
+			 xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+			 Height="70" Width="80">
+	<Border MouseLeftButtonUp="OnClick"
+            Cursor="Hand"
+            Margin="2"
+            Padding="4"
+            CornerRadius="8"
+            Background="Transparent" 
+            x:Name="MainBorder">
 		<Border.Style>
 			<Style TargetType="Border">
 				<Style.Triggers>
 					<Trigger Property="IsMouseOver" Value="True">
-						<Setter Property="Background" Value="{DynamicResource NavButtonHoverBrush}"/>
+						<Setter Property="Background" Value="#15FFFFFF"/>
 					</Trigger>
 					<DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
-						<Setter Property="Background" Value="{DynamicResource NavButtonActiveBrush}"/>
+						<Setter Property="Background" Value="{DynamicResource Brush.NavbarAccent}"/>
 					</DataTrigger>
 				</Style.Triggers>
 			</Style>
 		</Border.Style>
 
-		<StackPanel Width="66" Orientation="Vertical" HorizontalAlignment="Center">
+		<Grid>
+			<StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+				<ui:SymbolIcon
+                    Symbol="{Binding Icon, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                    FontSize="22"
+                    Margin="0,0,0,4"
+                    HorizontalAlignment="Center"
+                    Foreground="{DynamicResource Brush.Foreground}"/>
 
-			<ui:SymbolIcon
-                Symbol="{Binding Icon, RelativeSource={RelativeSource AncestorType=UserControl}}"
-                FontSize="20"
-                HorizontalAlignment="Center"
-                Foreground="{DynamicResource NavIconDefaultBrush}">
-				<ui:SymbolIcon.Style>
-					<Style TargetType="ui:SymbolIcon">
-						<Style.Triggers>
-							<DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
-								<Setter Property="Foreground" Value="{DynamicResource NavIconActiveBrush}"/>
-							</DataTrigger>
-							<Trigger Property="IsMouseOver" Value="True">
-								<Setter Property="Foreground" Value="{DynamicResource NavIconHoverBrush}"/>
-							</Trigger>
-						</Style.Triggers>
-					</Style>
-				</ui:SymbolIcon.Style>
-			</ui:SymbolIcon>
-
-			<ui:TextBlock
-                Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}"
-                Margin="0,6,0,0"
-                HorizontalAlignment="Center"
-                Foreground="{DynamicResource NavIconDefaultBrush}">
-				<ui:TextBlock.Style>
-					<Style TargetType="ui:TextBlock">
-						<Style.Triggers>
-							<DataTrigger Binding="{Binding IsActive, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
-								<Setter Property="Foreground" Value="{DynamicResource NavIconActiveBrush}"/>
-							</DataTrigger>
-							<Trigger Property="IsMouseOver" Value="True">
-								<Setter Property="Foreground" Value="{DynamicResource NavIconHoverBrush}"/>
-							</Trigger>
-						</Style.Triggers>
-					</Style>
-				</ui:TextBlock.Style>
-			</ui:TextBlock>
-
-		</StackPanel>
-
+				<ui:TextBlock
+                    Text="{Binding Text, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                    FontSize="11"
+                    TextAlignment="Center"
+                    TextWrapping="NoWrap"
+                    TextTrimming="CharacterEllipsis" 
+                    HorizontalAlignment="Center"
+                    Foreground="{DynamicResource Brush.Foreground}"/>
+			</StackPanel>
+		</Grid>
 	</Border>
 	
 	
